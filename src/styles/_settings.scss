@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+
+$font1 : Poppins;
+$color1 : #12263a;
+$color2 : #F4EDEA;
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $color1;
+    color: $color2;
+}
