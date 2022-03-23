@@ -10,6 +10,7 @@ body{
     padding: 0;
     background-color: $color1;
     color: $color2;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
