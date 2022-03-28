@@ -11,6 +11,13 @@ const Search = () => {
 
     return (
         <div className='search'>
+            <div className='search-options'>
+                <input type='text' placeholder='choississez un film'></input>
+                <div className='btn-topflop'>
+                    <button className='topToFlop'>Top<span>➞</span></button>
+                    <button className='flopToTop'>Flop<span>➞</span></button>
+                </div>
+            </div>
             <div className='result'>
                 
                 {moviesData.map((movie)=><Card movie={movie} key={movie.id}/>)}

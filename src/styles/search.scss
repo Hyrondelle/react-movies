@@ -1,7 +1,36 @@
 .search{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    .search-options input{
+        width: 208px;
+        padding: 0;
+        border: none;
+        height: 28px;
+        border-radius: 8px;
+    }
+
+    .btn-topflop{
+        display: flex;
+    }
+    .topToFlop, .flopToTop{
+        width: 104px;
+        height: 28px;
+        background-color: $color4;
+        color: $color2;
+        border-radius: 8px;
+        border: none;
+    }
+    .topToFlop span{
+        position: absolute;
+        transform: rotate(-90deg);
+    }
+    .flopToTop span{
+        position: absolute;
+        transform: rotate(90deg);
+    }
 
     .result{
         display: flex;

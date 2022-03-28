@@ -1,9 +1,49 @@
 .card{
+    
     width: 200px;
     height: 350px;
     border-radius: 7px;
     border: 1px solid rgb(223, 217, 217);
     margin: 10px;
+    color: rgba(228, 222, 222, 0.973);
+    padding: 2px;
+    background-color: $color4;
 
-    color: black;
+    h3{
+        margin: 0;
+        margin-top: 3px;
+        justify-content: center;
+        height: 43px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image{
+        width: 200px;
+        height: 100px;
+        background-size: cover;
+        
+    }
+    .date-popu{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 8px;
+        p{
+            margin: 0;
+        }
+    }
+    .description{
+        margin: 0;
+        margin-bottom: 10px;
+        height: 124px;
+        overflow: hidden;
+        text-align: justify;
+    }
+    input{
+        display: flex;
+        margin: 10px auto 0 auto;
+        border-radius: 8px;
+    }
 }
