@@ -27,7 +27,8 @@
         width: 200px;
         height: 100px;
         background-size: cover;
-        
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
     }
     .date-vote{
         display: flex;
@@ -47,6 +48,7 @@
     }
     input{
         display: flex;
+        background-color: rgb(186, 189, 25);
         margin: 10px auto 0 auto;
         border-radius: 8px;
         &:hover{

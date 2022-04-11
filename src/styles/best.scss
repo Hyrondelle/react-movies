@@ -1,0 +1,14 @@
+.best{
+    h2{
+        text-align: center;
+        margin: 0;
+    }
+    .best-movies{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .noMovies{
+        margin-top: 20%;
+    }
+}
