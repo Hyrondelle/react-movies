@@ -53,6 +53,7 @@
         border-radius: 8px;
         &:hover{
             transform: scale(1.05,1.05);
+            background-color: rgb(171, 173, 63);
             cursor: pointer;
         }
     }

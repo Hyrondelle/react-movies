@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<Home/>}/>
-        <Route path="/best" exact element={<Best/>}/>
+        <Route path="/react-movies" exact element={<Home/>}/>
+        <Route path="/react-movies/best" exact element={<Best/>}/>
       </Routes>
     </BrowserRouter>
     </div>

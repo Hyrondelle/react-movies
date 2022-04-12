@@ -7,12 +7,12 @@ const Navigation = () => {
             <nav >
                 <li>
                     <ul>
-                    <NavLink to="/" className={(nav)=>nav.isActive?"class-active":""}>
+                    <NavLink to="/react-movies" className={(nav)=>nav.isActive?"class-active":""}>
                         <span>Home</span>
                     </NavLink>
                     </ul>
                     <ul>
-                    <NavLink to="/best" className={(nav)=>nav.isActive?"class-active":""}>
+                    <NavLink to="/react-movies/best" className={(nav)=>nav.isActive?"class-active":""}>
                         <span>Best</span>
                     </NavLink>
                     </ul>

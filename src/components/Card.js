@@ -6,6 +6,10 @@ const Card = (props) => {
         if(!localStorage.getItem(props.movie.id))
         localStorage.setItem(props.movie.id,props.movie.id)
     }
+    const removeToBest = ()=>{
+        localStorage.removeItem(props.movie.id)
+        window.location.reload();
+    }
 
     return (
         <div className='card'>
@@ -20,9 +24,9 @@ const Card = (props) => {
                     </div>
                     <p className='description'>{props.movie.overview}</p>
                     <input 
-                        onClick={addToBest}
+                        onClick={window.location.href.includes("best")?removeToBest:addToBest}
                         type='button'
-                        value="ajoutez aux favoris">
+                        value={window.location.href.includes("best")?"enlevez des favoris":"ajoutez aux favoris"}>
 
                     </input>
                 </div>
