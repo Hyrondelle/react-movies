@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-movies/static/css/main.a8c6113d.css",
+    "main.js": "/react-movies/static/js/main.4406ccf1.js",
+    "static/media/liregenerique.png": "/react-movies/static/media/liregenerique.d000f67febe24899345c.png",
+    "index.html": "/react-movies/index.html",
+    "main.a8c6113d.css.map": "/react-movies/static/css/main.a8c6113d.css.map",
+    "main.4406ccf1.js.map": "/react-movies/static/js/main.4406ccf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8c6113d.css",
+    "static/js/main.4406ccf1.js"
+  ]
+}
