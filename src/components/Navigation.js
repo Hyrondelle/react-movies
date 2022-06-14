@@ -18,9 +18,7 @@ const Navigation = () => {
                     </ul>
                 </li>
             </nav>
-            <div className='title'>
-                <h1>React Movies</h1>
-            </div>
+            
         </div>
     );
 };

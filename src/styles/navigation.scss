@@ -19,15 +19,9 @@
     a:visited{
         color: $color3;
     }
-    nav{
-        position: absolute;
-    }
+    
     li{
         display: flex;
     }
-    .title{
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+    
 }

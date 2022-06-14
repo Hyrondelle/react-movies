@@ -56,6 +56,9 @@
             background-color: rgb(171, 173, 63);
             cursor: pointer;
         }
+        &:focus{
+            background-color: rgb(240, 83, 10);
+        }
     }
     .vote{
         span{

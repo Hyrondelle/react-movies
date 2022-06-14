@@ -10,7 +10,7 @@
         outline: none;
         height: 28px;
         border-radius: 8px;
-        padding: 0;
+        padding-left: 5px;
     }
 
     .btn-topflop{
@@ -25,6 +25,9 @@
         cursor: pointer;
         &:hover{
             background-color: rgb(54, 89, 107);
+        }
+        &:focus{
+            color: yellowgreen;
         }
     }
     .topToFlop{

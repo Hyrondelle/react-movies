@@ -15,6 +15,9 @@ const Search = () => {
 
     return (
         <div className='search'>
+            <div className='title'>
+                <h1>React Movies</h1>
+            </div>
             <div className='search-options'>
                 <input type='text' 
                     placeholder='choississez un film'
